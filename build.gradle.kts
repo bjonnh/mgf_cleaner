@@ -131,6 +131,6 @@ detekt {
 // Documentation
 
 changelog {
-    version = projectVersion
-    groups = listOf("Added", "Changed", "Deprecated", "Removed", "Fixed", "Security")
+    setVersion(projectVersion)
+    this.groups.set(listOf("Added", "Changed", "Deprecated", "Removed", "Fixed", "Security"))
 }
